@@ -1,0 +1,487 @@
+/* INDEX PAGE*/
+.b-giftselect select
+{
+	width: 150px;
+}
+
+/* DEBUG */
+xmp
+{
+	white-space: pre;
+	background: #fff;
+	border: 1px solid red;
+	position: absolute;
+	z-index: 30000;
+}
+
+/* CATALOG DETAIL */
+div.b-page-content-lablocks b,
+div.b-catalogShowSert-more b
+{
+	font-weight: bold;
+}
+
+div.b-page-content-lablocks ul,
+div.b-catalogShowSert-more ul
+{
+	list-style: inside;
+}
+
+div.b-page-content-lablocks ol,
+div.b-catalogShowSert-more ol
+{
+	margin-left: 20px;
+}
+
+div.b-page-content-lablocks p
+{
+	margin: 1em 0 0.5em;
+}
+
+/* POPUP */
+.b-loginform-content div.close
+{
+	display: block;
+	width: 12px;
+	height: 13px;
+	background: url(img/bg_popup_close.png) left top no-repeat;
+	position: absolute;
+	right: 11px;
+	top: 11px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#b-mynomunal .b-loginform-content-tcontent,
+#test-cert-popup .b-loginform-content-tcontent
+{
+  padding: 20px;
+}
+
+#mysumm
+{
+	margin: 0;
+}
+
+#test-cert-popup .b-loginform-content-tcontent-emailtxt
+{
+	margin: 9px 0 6px;
+}
+
+a.show-test-cert-popup
+{
+	color: #1A3DC1;
+	text-decoration: none;
+	border-bottom: 1px dotted #1A3DC1;
+}
+a.show-test-cert-popup:hover
+{
+	color: #E07027;
+	border-bottom: 1px dotted #E07027;
+}
+
+/* AUTH */
+.b-account-message
+{
+	font-weight: bold;
+}
+
+.content-block
+{
+	font-size: 1.2em;
+	padding: 30px 0 50px;
+	float: left;
+	line-height: 1.4em;
+	margin-left: 30px;
+	width: 670px;
+}
+
+.content-block h1
+{
+	color: #000;
+	font-size: 2em;
+	font-weight: lighter;
+}
+.content-block p
+{
+	margin: 1em 0 0.5em;
+}
+
+strong.title
+{
+	display: block;
+	margin: 20px 0 6px;
+	clear: both;
+}
+input.inputtext
+{
+	background: url("img/bg_logininput.png") no-repeat scroll left center transparent;
+	border: medium none;
+	color: #000;
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 1.2em;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 0 5px;
+	padding: 0 10px;
+	width: 197px;
+/*
+	background: url("img/bg_account_input.png") no-repeat scroll left top transparent;
+	border: 0 none;
+	display: block;
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 1.2em;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 0 5px;
+	padding: 0 6px;
+	width: 255px;
+*/
+}
+
+/* ADDITIONAL */
+.placeholder-on
+{
+	color: #c9c9c9 !important;
+}
+.placeholder-off
+{
+	color: #000 !important;
+}
+.clear
+{
+	clear: both;
+}
+.b-button-submit {
+	background: url(img/bg_button_submit_l.png) no-repeat scroll left top transparent;
+	display: block;
+	float: left;
+	height: 39px;
+}
+.b-button-submit span {
+	background: url(img/bg_button_submit_r.png) no-repeat scroll right top transparent;
+	display: block;
+	height: 39px;
+	padding: 0 40px;
+}
+.b-button-submit span input {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 35px;
+	text-shadow: -1px -1px 0 #DA5C19;
+}
+
+.b-account-settings-form input[type=password]{
+	width: 255px;
+	height: 36px;
+	line-height: 36px;
+	background: url(img/bg_account_input.png) left top no-repeat;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 1.2em;
+	padding: 0px 6px;
+	display: block;
+	margin: 0px 0px 5px 0px;
+	border: 0px none;
+}
+.b-account-settings-form input {
+	border: medium none !important;
+	border-color: #fff !important;
+}
+
+.settings-top {
+	background:url('img/bg_account_settings_bottom.gif') no-repeat scroll left bottom transparent;
+	padding: 30px 0 20px;
+}
+
+div.err_placement {
+	
+}
+
+label.error {
+	color: #E52713 !important;
+	background: none !important;
+	margin-left: 10px;
+	display: inline;
+	cursor: default !important;
+	/*margin-left: 280px;
+	margin-top: -10px;
+	display: block;
+	clear: both;*/
+}
+
+label.sert_error {
+	color: #E52713 !important;
+	background: none !important;
+	display: inline;
+	cursor: default !important;
+	padding: 10px 0 0 0 !important;
+	
+}
+
+#b-loginform .b-loginform-content-tcontent
+{
+	padding: 35px 20px 20px 20px;
+}
+#b-loginform .b-loginform-content-tcontent
+{
+	min-height: 175px;
+}
+
+.b-loginform-form-div label.sert_error {
+	padding: 0 !important;
+	font-size: 1em !important;
+}
+
+.b-account-settings-form input {
+	display: inline !important;
+}
+
+.b-login a {
+	color: #1A3DC1;
+	text-decoration: none;
+}
+
+.b-login a span {
+	border-bottom: 1px dotted #1A3DC1;
+}
+
+.b-loginform-content {
+	width: 574px;
+}
+
+#f-login-msg {
+	display: block;
+	line-height: 20px !important;
+	margin-bottom: 0px;
+}
+#l-login-msg
+{
+	margin: 8px 0 0 230px;
+	position: absolute;
+	line-height: 2em;
+	width: 280px;
+}
+
+#idRecoveryFormHref, #idLoginFormHref {
+	float: left;
+	padding: 30px 0 0 30px;
+}
+
+
+#b-loginform div.close {
+	display: block;
+	width: 12px;
+	height: 13px;
+	background: url(img/bg_popup_close.png) left top no-repeat;
+	position: absolute;
+	right: 11px;
+	top: 11px;
+	text-decoration: none;
+}
+
+/* ORDER: STEP 1*/
+
+#oformlen-account-txt-2 .b-loginform-form .forgot-password
+{
+	float: left;
+	font-size: 1em;
+	line-height: 1em;
+	position: relative;
+	color: #777678;
+}
+
+/*order_make_payment*/
+.m-block-payment label {
+	display: block;
+	background: url("img/bg_radio.gif") no-repeat scroll left center transparent;
+	float: none;
+	margin: 0px;
+	cursor: default;
+	/*line-height: 25px;*/
+	padding: 1px 0 1px 25px;
+	margin: 0;
+}
+
+.m-block-payment span {
+	/*line-height: 30px;*/
+	padding: 0px 0px 0px 20px;
+}
+
+.m-block-payment div {
+	width: 40px;
+	float: left;
+}
+
+.m-block-payment label img {
+	cursor: pointer;
+	/*line-height: 30px;*/
+	margin-top: -9px;
+}
+
+.m-block-payment strong {
+	display: block;
+	margin-bottom: 10px;
+}
+
+a.m-block-payment {
+	display: block;
+	margin: -35px 0 0 230px;
+	
+}
+
+/* CONTENT: LEFT MENU */
+.left-menu-block
+{
+	float: left;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin-left: 20px;
+	padding: 30px 0 50px;
+	width: 220px;
+}
+
+.b-whuitwork-addtext h2
+{
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin: 1.2em 0 0.6em;
+}
+
+.b-whuitwork-addtext h3
+{
+	font-weight: lighter;
+	font-size: 1.1em;
+	margin: 1.2em 0 0.6em;
+}
+
+.b-whuitwork-addtext b
+{
+	font-weight: bold;
+}
+
+.b-whuitwork-addtext ul
+{
+	list-style: inside;
+	margin-left: 15px;
+}
+
+.b-whuitwork-addtext ol
+{
+	margin-left: 20px;
+}
+
+.b-whuitwork-addtext p
+{
+	margin: 1em 0 0.5em;
+}
+
+
+#left-menu li
+{
+	width: 200px;
+	line-height: 1.8em;
+}
+
+li ul {
+	margin-left: 10px;
+}
+
+li.close ul {
+	display: none;
+}
+
+
+#left-menu li.close a.root-item
+{
+	color: #3366CC;
+	border-bottom: 1px dotted #3366CC;
+}
+
+#left-menu a.root-item {
+	font-weight: normal;
+	color: #3366CC;
+	border-bottom: 1px dotted #3366CC;
+	text-decoration: none;
+	font-size: 1.2em;
+	
+}
+
+#left-menu a.selected {
+	color: #000;
+	text-decoration: none;
+}
+
+/* для блогов */
+
+a.selected {
+	color: #000;
+	text-decoration: none;
+}
+
+.b-blog-item h2 {
+    color: #000000;
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0 0 20px;
+    padding: 0;	
+}
+
+/* Поиск */
+
+.search-page {
+	font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 30px;
+}
+
+.search-page .content-block {
+	margin-left: 245px;
+}
+.search-page .b-blog-list
+{
+	margin-left: 10px;
+}
+
+
+.search-page .b-button-submit {
+	margin-left: 10px;	
+}
+
+.search-page .b-button-submit span input {
+	font-size: 1em;
+}
+
+.search-page .cnt {
+	float: left;
+	color: #777678;
+	font-size: 1em;
+}
+.search-page input {
+	float: left;
+}
+
+.search-page .inputtext {
+	margin-right: 20px;	
+}
+
+.search-page .cusel {
+	float: left;
+	font-size: 1em;
+	line-height: 1em;
+	font-weight: normal;
+	font-family: Tahoma,Arial,sans-serif;
+	
+	margin-top: 3px;
+}
+.search-page .item-path {
+	color: #777678;
+}
+
+.for-print
+{
+	display: none;
+}
